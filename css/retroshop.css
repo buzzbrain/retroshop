@@ -1,1 +1,75 @@
-﻿
+﻿body {
+	margin: 0;
+	background-image: url("../design/retro_art_wallpaper_design.png");
+}
+
+header h1 {
+	text-align: center;
+}
+
+main {
+	color: white;
+}
+
+section {
+	width: 600px;
+	height: auto;
+}
+
+.artikkel {
+	text-align: center;
+}
+
+aside {
+	width: 300px;
+	text-align: left;
+	float: right;
+}
+
+nav ul {
+	text-align: center;
+}
+
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+	display: block; 
+	margin-right: 5px; 
+	margin-left: 5px;
+    font-size: 18px;  
+    line-height: 44px;    
+	text-align: left;
+	padding: 0 5px 0 5px;
+}
+
+header nav ul li {  
+    display: inline-block;  
+} 
+
+header nav ul li ul {
+	display: none;
+	position: absolute;
+}
+
+header nav ul li:hover ul {
+	display: block;
+	background: gray;
+	border: 3px solid black;
+	height: auto;
+	width: auto;
+}
+
+nav ul li ul li {
+	display: block;
+	border-style: none;
+}
+
+header nav ul li ul li a {
+	display: block;
+	line-height: 30px;
+	text-align: left;
+	border-style: none;
+	margin-left: -40px;
+}
+
+
