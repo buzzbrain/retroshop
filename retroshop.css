@@ -72,4 +72,25 @@ header nav ul li ul li a {
 	margin-left: -40px;
 }
 
+.registrer {
+	margin-top: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 10em;
+    padding: 70px 50px 0 0;
+    text-align: right;
+	border: 2px solid white;
+}
+
+.login {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20em;
+	height: 5em;
+	padding: 30px 50px 0 0;
+	text-align: right;
+	border: 2px solid white;	
+}
 
