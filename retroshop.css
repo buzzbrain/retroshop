@@ -1,14 +1,10 @@
 ﻿body {
 	margin: 0;
-	background-image: url("retro_art_wallpaper_design.png");
+	background-image: url("design/retro_art_wallpaper_design.png");
 }
 
 header h1 {
 	text-align: center;
-}
-
-main {
-	color: white;
 }
 
 section {
@@ -93,4 +89,3 @@ header nav ul li ul li a {
 	text-align: right;
 	border: 2px solid white;	
 }
-
