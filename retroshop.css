@@ -1,14 +1,17 @@
 ﻿body {
 	margin: 0;
-	background-image: url("retro_art_wallpaper_design.png");
+	background-image: url("design/retro_art_wallpaper_design.png");
+}
+
+header {
+	background: linear-gradient(to right, rgb(2,87,163),rgb(2,87,163), black);
+	margin-top: -20px;
+	border-bottom: solid;
+	border-color: black;
 }
 
 header h1 {
 	text-align: center;
-}
-
-main {
-	color: white;
 }
 
 section {
@@ -72,4 +75,24 @@ header nav ul li ul li a {
 	margin-left: -40px;
 }
 
+.registrer {
+	margin-top: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 10em;
+    padding: 70px 50px 0 0;
+    text-align: right;
+	border: 2px solid white;
+}
 
+.login {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20em;
+	height: 5em;
+	padding: 30px 50px 0 0;
+	text-align: right;
+	border: 2px solid white;	
+}
