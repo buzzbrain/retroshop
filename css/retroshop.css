@@ -7,6 +7,7 @@ header {
 	margin-top: -20px;
 	border-bottom: solid;
 	border-color: black;
+	height: 100px;
 	
 }
 header h1 {
@@ -29,10 +30,11 @@ section {
 }
 
 aside {
-	width: 300px;
+	width: 200px;
 	text-align: left;
 	float: right;
-	border:1px solid red;
+	border:1px solid black;
+	position: fixed;
 }
 
 nav ul {
@@ -92,17 +94,24 @@ footer{
 	
 	
 }
+main aside nav ul li {
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
 .shop{
 	display:block;
 	float:left;
 	text-align: left;
-	border:10px solid lightgreen;
-	background-color:lightblue;
-	height: 750px;
+	background: linear-gradient(to bottom, rgb(2,87,163),rgb(2,87,163), black);
+	height: 450px;
+	padding: 0;
+	text-decoration: none;
+	margin-left: 20px;
+	
 	
 }
 .varer{
-	margin-left: 75px;
 	padding:20px;
 	border:10px solid red;
 	float:left;
@@ -119,9 +128,13 @@ footer{
 }
 
 #katalog {
-	margin-left: 750px;
+	margin-left: 30px;
+	float: left;
 }
 
 #kroner {
 	padding: 0 0 0 15px;
+}
+.hoved {
+	margin-left: 200px;
 }
