@@ -138,3 +138,19 @@ main aside nav ul li {
 .hoved {
 	margin-left: 200px;
 }
+.nyheter{
+	float:left;
+	text-align:senter;	
+	margin-left: 500px;
+	border: 3px red;
+	
+}
+.support{
+	
+	float:left;
+	text-align:senter;	
+	margin-left: 500px;
+	border: 3px red;
+	
+	
+}
