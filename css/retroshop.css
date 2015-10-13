@@ -94,14 +94,14 @@ footer{
 .shop{
 	display:block;
 	float:left;
-	text-align: center;
+	text-align: left;
 	border:10px solid lightgreen;
 	background-color:lightblue;
-	
-	
+	height: 750px;
 	
 }
 .varer{
+	margin-left: 75px;
 	padding:20px;
 	border:10px solid red;
 	float:left;
@@ -115,6 +115,12 @@ footer{
 	span:active;
 	padding-top:1px;
 	
-	
-	
+}
+
+#katalog {
+	margin-left: 750px;
+}
+
+#kroner {
+	padding: 0 0 0 55px;
 }
