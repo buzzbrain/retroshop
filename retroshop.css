@@ -19,10 +19,6 @@ section {
 	height: auto;
 }
 
-.artikkel {
-	text-align: center;
-}
-
 aside {
 	width: 300px;
 	text-align: left;
@@ -75,6 +71,15 @@ header nav ul li ul li a {
 	margin-left: -40px;
 }
 
+.artikkel {
+	color: black;
+	margin-top: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+	border: 2px solid black;
+}
+
 .registrer {
 	margin-top: 100px;
 	margin-left: auto;
@@ -83,7 +88,7 @@ header nav ul li ul li a {
     height: 10em;
     padding: 70px 50px 0 0;
     text-align: right;
-	border: 2px solid white;
+	border: 2px solid black;
 }
 
 .login {
@@ -94,5 +99,26 @@ header nav ul li ul li a {
 	height: 5em;
 	padding: 30px 50px 0 0;
 	text-align: right;
-	border: 2px solid white;	
+	border: 2px solid black;	
+}
+
+.shop {
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	margin-right: 1445px; 
+	margin-left: 5px;
+    font-size: 12px;  
+}
+
+
+#produkttekst {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200em;
+	height: 5em;
+	padding: 30px 50px 0 0;
+	text-align: right;
+	border: 2px solid black;	
 }
