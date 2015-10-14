@@ -2,9 +2,14 @@
 	margin: 0;
 	background-image: url("../design/retro_art_wallpaper_design.png");
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     body {
-        background-image: url("../design/mobil.jpg");
+       /* background-image: url("../design/mobil.jpg");*/
+	}
+	
+	header{
+	height:350px;
+	border-color:red;
 	}
 	
 	aside.hovedside{
@@ -29,6 +34,13 @@
 	nav ul li ul li {
 		display: none;
 	}
+	div.varer{
+		margin-top:20px;
+		
+		
+	}
+	
+	
 }
 article.hovedside {
 	float: left;
@@ -67,6 +79,14 @@ header {
 	height: 100px;
 	
 }
+@media screen and (max-width: 900px) {
+	header{
+	height:140px;
+	
+	}
+	
+}
+
 header h1 {
 	text-align: center;
 }
