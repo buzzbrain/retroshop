@@ -2,7 +2,11 @@
 	margin: 0;
 	background-image: url("../design/retro_art_wallpaper_design.png");
 }
-
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url("../design/mobil.jpg");
+	}
+}
 article.hovedside {
 	float: left;
 	width: 800px;
@@ -215,4 +219,6 @@ div.nyheter {
 }
 h2{
 	text-align:center;
+}
+
 }
