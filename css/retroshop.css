@@ -11,10 +11,12 @@ article.hovedside {
 	margin-left: 50px;
 }
 header {
-	background: linear-gradient(to right, rgb(2,87,163),rgb(2,87,163), black);
+	/* background: linear-gradient(to right, rgb(2,87,163),rgb(2,87,163), black); */
+	background:linear-gradient(to right, gray, gray, black);
 	margin-top: -20px;
 	border-bottom: solid;
 	border-color: black;
+	color: white;
 	height: 100px;
 	
 }
