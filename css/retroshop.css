@@ -108,7 +108,7 @@ header nav ul li ul li a {
 footer{
 	clear:both;
 	text-align:center;
-	background: linear-gradient(to right, rgb(2,87,163),rgb(2,87,163), black);
+	background: linear-gradient(to right, gray, gray, black);
 	border:2px solid black;
 	padding:5px;
 	color:black;
