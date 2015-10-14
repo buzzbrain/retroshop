@@ -33,9 +33,29 @@
 article.hovedside {
 	float: left;
 	width: 700px;
-	height: 500px;
-	border: 5px solid green;
+	height: 700px;
 	margin-left: 50px;
+}
+div.supportbox {
+	float: left;
+	width: 700px;
+	height: 900px;
+	margin-left: 50px;
+}
+div.registerdiv {
+	float: left;
+	width: 600px;
+	height: 200px;
+	background: gray;
+	border-radius: 20px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+div.regdiv {
+	float: left;
+	margin: 5px;
+	height: 100px;
+	width: 140px;
 }
 header {
 	/* background: linear-gradient(to right, rgb(2,87,163),rgb(2,87,163), black); */
@@ -71,14 +91,14 @@ aside.hovedside {
 	height: 500px;
 	text-align: left;
 	float: right;
-	border:5px solid red;
 }
 div.asidediv {
 	background: gray;
 	border-radius: 20px;
-	width: 300px;
+	width: 250px;
 	height: 150px;
-	padding: 20px;
+	padding: 40px;
+	padding-left: 20px;
 	margin-top: 50px;
 }
 
@@ -143,6 +163,7 @@ main aside nav ul li {
 	list-style: none;
 	color: white;
 	text-decoration: none;
+	border-radius: 10px;
 }
 aside.shop {
 	float:left;
@@ -154,6 +175,7 @@ aside.shop {
 	margin-left: 20px;
 	position: fixed;
 	width: 170px;
+	border-radius: 20px;
 }
 aside ul li {
 	width:130px;
@@ -176,6 +198,28 @@ div.nyheter {
 	margin-bottom: 30px;
 	border-radius: 20px;
 	padding-left: 10px;
+	float: left;
+}
+div.support {
+	margin-bottom: 20px;
+	width: 600px;
+	float: left;
+	background: gray;
+	border-radius: 20px;
+	padding-left: 10px;
+	
+	
+}
+div.login {
+	margin-bottom: 20px;
+	height: 200px;
+	width: 600px;
+	float: left;
+	background: gray;
+	border-radius: 20px;
+}
+div.input {
+	margin: 50px;
 }
 
 .shop{
@@ -198,6 +242,7 @@ div.nyheter {
 	word-wrap: break-word;
 	width:270px; 
 	margin-right: 5px;
+	border-radius: 20px;
 	
 }
 .knapp{
@@ -224,15 +269,7 @@ div.nyheter {
 	border: 3px red;
 	
 }
-.support{
-	
-	float:left;
-	text-align:senter;	
-	margin-left: 100px;
-	border: 3px red;
-	
-	
-}
+
 .omoss{
 	
 	margin-left:350px;
