@@ -277,7 +277,7 @@ div.input {
 	float: left;
 }
 
-#kroner {
+span.kroner {
 	padding: 0 0 0 15px;
 }
 .hoved {
